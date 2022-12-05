@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>
+Box Project
+</title>
+
+<style>
+#box1{
+	background:#ff0000;
+    float:left;
+  width: 250px;
+  height: 250px;
+  
+  
+}
+#box2{
+	background:#ffff00;
+    float:right;
+    width: 250px;
+  height: 250px;
+    
+  }
+  #box12{
+    float:left;
+  height: 250pX; 
+  width: 140px;
+  
+  
+}
+#box34{
+    float:left;
+    width: 260px;
+  height: 250px;
+     ;
+    
+  }
+
+  #box4{
+  	background:#ffa500;
+    float:left;
+    width: 250px;
+  height: 250px;
+  
+  }
+
+  #box3{
+  	background:#008000;
+    float: right;
+    width: 250px;
+  height: 250px;
+    
+  }
+  #box5{
+ 
+    float:left;
+    width: 500px;
+    height: 750px;
+    
+  }
+  
+
+
+</style>
+</head>
+<form action="div" method="post"></form>
+<body>
+
+    <div id="box5">
+    <div id="box1">
+        <b>1</b>
+    </div>
+
+    <div id="box2"  >
+        <b>2</b>
+    </div>
+    <div id="box12">
+
+       <button type="button" name="left"  style="height: 100pX; width: 140px;" id="antiClockWise">Anti-ClockWise</button>
+      
+    </div>
+
+    <div id="box34";  >
+        <button type="button"  name="right"  style="height: 100pX; width:140px;" id="clockWise">ClockWise</button>
+     .  
+    </div>
+
+
+<div id="box4">
+        <b>4</b>
+        
+    </div>
+
+    <div id="box3">
+        <b>3</b>
+    </div>
+</div>
+</body>
+</html>
